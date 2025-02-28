@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Mexicano por Regiones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f7fa;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 0.5em 0;
+            text-align: center;
+        }
+        nav a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 0.5em 1em;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 1em 0;
+        }
+        #map-section {
+            float: left;
+            width: 60%;
+        }
+        #regions-section {
+            float: right;
+            width: 35%;
+        }
+        #map-section img {
+            width: 100%;
+            height: auto;
+        }
+        .region {
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: hsl(0, 0%, 35%);
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Descubre el Café Mexicano</h1>
+        <p>Un viaje por las regiones productoras de café en México</p>
+    </header>
+
+    <nav>
+        <a href="#map-section">Mapa de Regiones</a>
+        <a href="#regions-section">Regiones Cafetaleras</a>
+        <a href="#">Nuestro Café</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <section id="map-section">
+            <h2>Mapa de las Regiones Cafetaleras</h2>
+            <img src= "images/mapa.png" Mapa de México con regiones cafetaleras">
+        </section>
+
+        <section id="regions-section">
+            <h2>Regiones Productoras</h2>
+
+            <div class="region">
+                <h3>Chiapas</h3>
+                <p>Con una producción significativa, Chiapas destaca por su café de altura con notas achocolatadas [1][7].</p>
+            </div>
+
+            <div class="region">
+                <h3>Veracruz</h3>
+                <p>Veracruz es reconocido por su café aromático y de acidez balanceada, cultivado en las montañas [1][7].</p>
+            </div>
+
+            <div class="region">
+                <h3>Oaxaca</h3>
+                <p>Oaxaca ofrece un café con perfiles complejos, influenciado por la diversidad de microclimas en la región [1][7].</p>
+            </div>
+
+            <div class="region">
+                <h3>Puebla</h3>
+                <p>Puebla produce café de excelente calidad gracias a sus condiciones geográficas y climáticas favorables [1][7].</p>
+            </div>
+
+             <div class="region">
+                <h3>Guerrero</h3>
+                <p>Guerrero también es un estado productor de café, con un enfoque creciente en la calidad y sostenibilidad [2][7].</p>
+            </div>
+
+             <div class="region">
+                <h3>San Luis Potosí</h3>
+                <p>San Luis Potosí, aunque no tan destacado como los anteriores, contribuye a la diversidad del café mexicano [7].</p>
+            </div>
+
+            <div class="region">
+                <h3>Nayarit</h3>
+                <p>Nayarit es otra región cafetalera importante, produciendo café de especialidad en algunas áreas [7].</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Café Mexicano. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
